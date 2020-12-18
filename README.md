@@ -1,4 +1,4 @@
-<img src="media/S1.jpg" width="220"> <img src="media/S2.jpg" width="220"> <img src="media/S3.jpg" width="220"> <img src="media/S4.jpg" width="220">
+<img src="media/S1.jpg" width="200"> <img src="media/S2.jpg" width="200"> <img src="media/S3.jpg" width="200"> <img src="media/S4.jpg" width="200">
 
 # WhatsApp Redesign
 
