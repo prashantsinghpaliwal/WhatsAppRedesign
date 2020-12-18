@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="unread_indicator_size">24dp</dimen>
+    <dimen name="element_spacing_xsmall">2dp</dimen>
+    <dimen name="margin_15dp">15dp</dimen>
+    <dimen name="dimen_6dp">6dp</dimen>
+    <dimen name="dimen_8dp">8dp</dimen>
+</resources>

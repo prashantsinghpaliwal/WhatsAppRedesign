@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    android:padding="12dp">
+
+    <View
+        android:id="@+id/contact_image"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:background="@drawable/circle_border_pressed"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/contact_name"
+        android:layout_width="225dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="4dp"
+        android:background="@color/gray_light"
+        app:layout_constraintLeft_toRightOf="@id/contact_image"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/message"
+        android:layout_width="180dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginStart="12dp"
+        android:background="@color/gray_light"
+        app:layout_constraintLeft_toRightOf="@id/contact_image"
+        app:layout_constraintTop_toBottomOf="@id/contact_name" />
+
+    <View
+        android:id="@+id/message_status_img"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:visibility="visible"
+        android:background="@drawable/circle_border_pressed"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/contact_name" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

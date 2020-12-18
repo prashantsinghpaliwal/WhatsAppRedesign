@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/monsieur_la_doulaise</item>
+        <item>@font/nunito</item>
+        <item>@font/rubik</item>
+    </array>
+</resources>
