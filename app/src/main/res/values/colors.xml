@@ -9,6 +9,7 @@
 <!--    <color name="colorAccent">#69EFAA</color>-->
 
     <color name="custom_green">#46AE37</color>
+    <color name="custom_green_light">#1A46AE37</color>
     <color name="gray_light">#DCE5E5E5</color>
     <color name="white">#fff</color>
 </resources>
